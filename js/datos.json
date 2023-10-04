@@ -1,0 +1,104 @@
+{
+    "productos": [
+      {
+        "nombre": "Helado de fresa",
+        "precio": 5000,
+        "descripciones": [
+          "helado hecho con pulpa de fresa o sus correspondientes colorantes y saborizantes."
+        ],
+        "imagenes": [
+          "./imagenes/fresa.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Paleta de chocolate",
+        "precio": 4000,
+        "descripciones": [
+          "con grué de cacao, peta-zetas, galleta de chocolate y cobertura de chocolate."
+        ],
+        "imagenes": [
+          "./imagenes/chocolate.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Cupcake",
+        "precio": 8000,
+        "descripciones": [
+          "pequeña tarta proporcionado para una persona."
+        ],
+        "imagenes": [
+          "./imagenes/cupcake.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Torta de mora",
+        "precio": 60000,
+        "descripciones": [
+          "Esponjosa y suave torta con sabor a mora que evoca el sabor casero de las tortas hechas en casa."
+        ],
+        "imagenes": [
+          "./imagenes/torta de mora.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Helado de mango",
+        "precio": 6000,
+        "descripciones": [
+          "Deliciosos helados de Mango, ideales para refrescar a tu mejor amigo, además de ser una fuente de vitaminas y antioxidantes."
+        ],
+        "imagenes": [
+          "./imagenes/helado de mango.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Dona",
+        "precio": 4000,
+        "descripciones": [
+          "Pan en forma de rosca, de masa dulce, suave y esponjosa, generalmente frita en mucho aceite y cubierta de azúcar."
+        ],
+        "imagenes": [
+          "./imagenes/dona.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Croissant",
+        "precio": 5000,
+        "descripciones": [
+          "un tipo de pastel crujiente a base de masa de hojas de origen austriaco hecha la masa a base de levadura y mantequilla."
+        ],
+        "imagenes": [
+          "./imagenes/Croissant.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Brownies",
+        "precio": 5500,
+        "descripciones": [
+          "Pastel hecho a base de nueces y chocolate."
+        ],
+        "imagenes": [
+          "./imagenes/Brownies.jpg"
+        ],
+        "cantidad": 1
+      },
+      {
+        "nombre": "Batido de chocolate",
+        "precio": 15000,
+        "descripciones": [
+          "Batido de chocolate 100% natural, una delicia sin aditivos artificiales, sin azúcares ni colorantes añadidos."
+        ],
+        "imagenes": [
+          "./imagenes/batido de chocolate.jpg"
+        ],
+        "cantidad": 1
+      }
+    ]
+  }
+  

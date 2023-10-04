@@ -11,7 +11,7 @@ const productosArray = [
 
 ]
 carritoLocal = [];
-mostrarEnDom();
+mostrarEnDom(); 
 
 function agregarAlCarrito(idProducto){
 let localExistente = [];
@@ -113,23 +113,34 @@ productosArray.forEach( producto =>{
         <button class="btn btn-primary" id="ap-${producto.id}" onClick="agregarAlCarrito(${producto.id})">$${producto.precio}</button>
         </div>
     </div>`
+    
+    
 })
 
 
 const botonFinalizarCompra = document.getElementById('finalizar_compra');
 function finalizar_compra() {
     Swal.fire({
-        position: 'center',
-        icon: 'success',
         title: '¡Gracias por su compra!',
-        showConfirmButton: false,
-        timer: 1500
-        }) 
+        width: 500,
+        padding: '4em',
+        color: '#716add',
+        background: '#fff url(https://i.gifer.com/3nk3.gif)',
+        backdrop: `
+          rgba(0,0,123,0.4)
+          url("https://i.gifer.com/yC.gif")
+          left top
+          no-repeat`
+      })
+      setTimeout(function() {
+        location.reload();
+    }, 1800);
+      
+        localStorage.removeItem("CARRITO");
+    localStorage.setItem('CARRITO', JSON.stringify(dataCarrito));
+    mostrarCarrito();
 }
 botonFinalizarCompra.addEventListener('click', finalizar_compra);
-
-  
-
 }
 
 
